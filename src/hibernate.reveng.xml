@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+    <schema-selection match-catalog="MedicalEcoSystem"/>
+    <table-filter match-name="City"/>
+    <table-filter match-name="CompoundCatalog"/>
+    <table-filter match-name="StudyType"/>
+    <table-filter match-name="Channeling"/>
+    <table-filter match-name="DrugCatalog"/>
+    <table-filter match-name="Enterprise"/>
+    <table-filter match-name="Study"/>
+    <table-filter match-name="Speciality"/>
+    <table-filter match-name="Doctor"/>
+    <table-filter match-name="Role"/>
+    <table-filter match-name="Drug"/>
+    <table-filter match-name="User"/>
+    <table-filter match-name="StudyCatalog"/>
+    <table-filter match-name="Pharmacytrans"/>
+    <table-filter match-name="Message"/>
+    <table-filter match-name="Report"/>
+    <table-filter match-name="Compound"/>
+    <table-filter match-name="Druggist"/>
+    <table-filter match-name="Country"/>
+    <table-filter match-name="Drug_has_Compound"/>
+    <table-filter match-name="doctors_departments"/>
+    <table-filter match-name="doctorMES"/>
+    <table-filter match-name="patients"/>
+
+</hibernate-reverse-engineering>

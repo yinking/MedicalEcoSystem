@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/MedicalEcoSystem?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.username">MedicalEcoSystem</property>
+    <property name="hibernate.current_session_context_class">thread</property>
+    <mapping class="entities.CompoundCatalog"/>
+    <mapping class="entities.Message"/>
+    <mapping class="entities.Study"/>
+    <mapping class="entities.EnterpriseId"/>
+    <mapping class="entities.DrugCatalog"/>
+    <mapping class="entities.Drug"/>
+    <mapping class="entities.Role"/>
+    <mapping class="entities.User"/>
+    <mapping class="entities.Enterprise"/>
+    <mapping class="entities.Report"/>
+    <mapping class="entities.Doctor"/>
+    <mapping class="entities.Country"/>
+    <mapping class="entities.StudyCatalog"/>
+    <mapping class="entities.Druggist"/>
+    <mapping class="entities.Compound"/>
+    <mapping class="entities.Channeling"/>
+    <mapping class="entities.Speciality"/>
+    <mapping class="entities.Pharmacytrans"/>
+    <mapping class="entities.StudyType"/>
+    <mapping class="entities.City"/>
+    <mapping class="entities.DrugHasCompound"/>
+    <mapping class="entities.DoctorDepartment"/>
+    <mapping class="entities.DoctorMES"/>
+    <mapping class="entities.Patients"/>
+  </session-factory>
+</hibernate-configuration>
